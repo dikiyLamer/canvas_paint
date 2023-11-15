@@ -1,0 +1,13 @@
+<button class="icon brush" (click)="onPickBrush()"></button>
+<button class="icon rectangle" (click)="onPickRect()"></button>
+<button class="icon circle" (click)="onPickCircle()"></button>
+<button class="icon eraser"></button>
+<button class="icon line" (click)="onPickLine()"></button>
+<div style="position: relative">
+  <button class="icon rainbow" (click)="color.click()"></button>
+  <input type="color" class="color" #color />
+</div>
+
+<button class="icon undo"></button>
+<button class="icon redo"></button>
+<button class="icon save"></button>

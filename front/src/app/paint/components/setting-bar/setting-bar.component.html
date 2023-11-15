@@ -1,0 +1,10 @@
+<label for="line-width">Толщина линии</label>
+<input
+  type="number"
+  id="line-width"
+  min="1"
+  max="50"
+  style="margin: 0 10px"
+  [defaultValue]="1"
+  (change)="lineWidthChanged($event)"
+/>

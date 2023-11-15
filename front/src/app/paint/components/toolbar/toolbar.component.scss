@@ -1,0 +1,69 @@
+:host {
+  height: 40px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  box-shadow: 0 4px 5px gray;
+  top: 0px;
+  z-index: 999;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-size: cover;
+  margin-left: 10px;
+}
+
+.brush {
+  background: url("../../../../assets/toolbar/brush.png") no-repeat center
+    center;
+}
+.rectangle {
+  background: url("../../../../assets/toolbar/rect.png") no-repeat center center;
+}
+.circle {
+  background: url("../../../../assets/toolbar/circle.png") no-repeat center
+    center;
+}
+.eraser {
+  background: url("../../../../assets/toolbar/eraser.png") no-repeat center
+    center;
+}
+.line {
+  background: url("../../../../assets/toolbar/line.png") no-repeat center center;
+}
+
+.rainbow {
+  position: relative;
+  z-index: 888;
+  background: url("../../../../assets/toolbar/rainbow.png") no-repeat center
+    center;
+}
+.undo {
+  margin-left: auto;
+  background: url("../../../../assets/toolbar/undo.png") no-repeat center center;
+}
+.redo {
+  background: url("../../../../assets/toolbar/redo.png") no-repeat center center;
+}
+.save {
+  margin-right: 10px;
+  background: url("../../../../assets/toolbar/save.png") no-repeat center center;
+}
+
+.color {
+  margin-left: 10px;
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border: none;
+  outline: none;
+  right: 10px;
+  z-index: 0;
+}
